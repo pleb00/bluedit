@@ -1,0 +1,42 @@
+[
+  {
+    "username": "deceit",
+    "email": "impares@gmail.com",
+    "password": "12345",
+    "role": "Admin",
+    "phoneNumber": "081234567891",
+    "address": "Hollywood Hills"
+  },
+  {
+    "username": "plebians",
+    "email": "plebians2@gmail.com",
+    "password": "abcdefgh",
+    "role": "User",
+    "phoneNumber": "089218427392",
+    "address": "Las Vegas"
+  },
+  {
+    "username": "mp412c",
+    "email": "mclaren@gmail.com",
+    "password": "987654",
+    "role": "Admin",
+    "phoneNumber": "081234567891",
+    "address": "UK"
+  },
+  {
+    "username": "m8",
+    "email": "bmw@gmail.com",
+    "password": "xdrive",
+    "role": "Admin",
+    "phoneNumber": "081234567891",
+    "address": "Autobahn"
+  },
+  {
+    "username": "fuki",
+    "email": "sacredbonesriot@gmail.com",
+    "password": "owcgf",
+    "role": "Admin",
+    "phoneNumber": "081234567891",
+    "address": "Japan"
+  }
+]

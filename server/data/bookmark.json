@@ -1,0 +1,12 @@
+[
+  { "CustomerId": 2, "PostId": 2 },
+  { "CustomerId": 2, "PostId": 8 },
+  { "CustomerId": 3, "PostId": 5 },
+  { "CustomerId": 3, "PostId": 10 },
+  { "CustomerId": 5, "PostId": 1 },
+  { "CustomerId": 6, "PostId": 8 },
+  { "CustomerId": 7, "PostId": 9 },
+  { "CustomerId": 7, "PostId": 10 },
+  { "CustomerId": 8, "PostId": 3 },
+  { "CustomerId": 9, "PostId": 5 }
+]

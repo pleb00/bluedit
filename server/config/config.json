@@ -1,0 +1,19 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "postgres",
+    "database": "p2-c3",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "postgres",
+    "database": "product_api_test_c2",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "use_env_variable": "DATABASE_URL"
+  }
+}

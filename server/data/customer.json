@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "email": "rlorenzin0@wix.com",
+    "password": "kgJg6uEth",
+    "role": "Customer"
+  },
+  {
+    "id": 2,
+    "email": "mjope1@toplist.cz",
+    "password": "XccsfBTZ8FRj",
+    "role": "Customer"
+  },
+  {
+    "id": 3,
+    "email": "thinnerk2@1und1.de",
+    "password": "O44lOPwn78",
+    "role": "Customer"
+  },
+  {
+    "id": 4,
+    "email": "tplaice3@1688.com",
+    "password": "QZjaHuj",
+    "role": "Customer"
+  },
+  {
+    "id": 5,
+    "email": "smassingberd4@pagesperso-orange.fr",
+    "password": "b1x7h9If7Ytk",
+    "role": "Customer"
+  },
+  {
+    "id": 6,
+    "email": "jivins5@1688.com",
+    "password": "5zN6oGLo6",
+    "role": "Customer"
+  },
+  {
+    "id": 7,
+    "email": "nlightwing6@geocities.jp",
+    "password": "AFCIjNJuvDnE",
+    "role": "Customer"
+  },
+  {
+    "id": 8,
+    "email": "hbartusek7@linkedin.com",
+    "password": "nJWJGUtto3",
+    "role": "Customer"
+  },
+  {
+    "id": 9,
+    "email": "enethercott8@xing.com",
+    "password": "RJiUU7bu6jn",
+    "role": "Customer"
+  },
+  {
+    "id": 10,
+    "email": "wtrice9@bbc.co.uk",
+    "password": "0Vn5bXUZW8W",
+    "role": "Customer"
+  }
+]

@@ -116,18 +116,18 @@ class userController {
       const targetPost = await Post.findByPk(id);
       if (targetPost === null) throw "NOT_FOUND";
 
-      const qrcode = await axios({
-        method: "post",
-        url: "https://api.qr-code-generator.com/v1/create?access-token=l3tLWZK8h0gZGJxcn11V85lEPu64_mE42VO3-b7_TNr6WmUaoJA1iEbP9h8Ru_qs",
-        data: {
-          frame_name: "no-frame",
-          qr_code_text: `http://localhost:5173/details/${id}`,
-          image_format: "SVG",
-          qr_code_logo: "scan-me-square",
-        },
-      });
+      // const qrcode = await axios({
+      //   method: "post",
+      //   url: "https://api.qr-code-generator.com/v1/create?access-token=l3tLWZK8h0gZGJxcn11V85lEPu64_mE42VO3-b7_TNr6WmUaoJA1iEbP9h8Ru_qs",
+      //   data: {
+      //     frame_name: "no-frame",
+      //     qr_code_text: `http://localhost:5173/details/${id}`,
+      //     image_format: "SVG",
+      //     qr_code_logo: "scan-me-square",
+      //   },
+      // });
 
-      targetPost.dataValues.qrCode = qrcode.data;
+      // targetPost.dataValues.qrCode = qrcode.data;
       res.status(200).json({
         statusCode: 200,
         data: targetPost,

@@ -23,6 +23,7 @@ export const usePostsStore = defineStore("post", {
       }
       try {
         const data = await axios.get(`${this.baseUrl}/pub/posts${this.query}`);
+
         this.posts = data.data.data.posts;
         this.totalPage = data.data.data.totalPage;
       } catch (err) {
@@ -41,6 +42,7 @@ export const useDetailStore = defineStore("detail", {
     async fetchDetails(id) {
       try {
         const data = await axios.get(`${this.baseUrl}/pub/posts/${id}`);
+        console.log(data);
         this.postById = data.data.data;
         this.totalPost = data.data.data.totalPost;
         this.page = data.data.data.page;
